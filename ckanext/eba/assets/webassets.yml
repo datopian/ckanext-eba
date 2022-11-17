@@ -1,0 +1,20 @@
+# eba-js:
+#   filter: rjsmin
+#   output: ckanext-eba/%(version)s-eba.js
+#   contents:
+#     - js/eba.js
+#   extra:
+#     preload:
+#       - base/main
+
+# eba-css:
+#   filter: cssrewrite
+#   output: ckanext-eba/%(version)s-eba.css
+#   contents:
+#     - css/eba.css
+
+home_css:
+  filter: cssrewrite
+  output: ckanext-eba/%(version)s-home.css
+  contents:
+    - home.css
