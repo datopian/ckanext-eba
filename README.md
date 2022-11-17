@@ -1,5 +1,3 @@
-[![Tests](https://github.com/geoffrey1330/ckanext-eba/workflows/Tests/badge.svg?branch=main)](https://github.com/geoffrey1330/ckanext-eba/actions)
-
 # ckanext-eba
 
 **TODO:** Put a description of your extension here:  What does it do? What features does it have? Consider including some screenshots or embedding a video!
