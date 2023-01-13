@@ -8,6 +8,7 @@ def hello_plugin():
 class EbaPlugin(plugins.SingletonPlugin):
     plugins.implements(plugins.IConfigurer)
     plugins.implements(plugins.IBlueprint)
+    plugins.implements(plugins.IAuthFunctions)
     # IConfigurer
 
     def update_config(self, config_):
@@ -25,4 +26,24 @@ class EbaPlugin(plugins.SingletonPlugin):
         blueprint.add_url_rule('/hello_plugin', '/hello_plugin', hello_plugin)
         return blueprint
 
+#     def get_auth_functions(self):
+#         """ Override the 'related' auth functions.
+#         """
+#         auth_functions = {
+#             "user_list": auth.user_list
+#         }
 
+# def user_list(context, data_dict=None):
+#     """ Check whether access to the user list is authorized
+#     """
+#     return {'success': _request_is_admin(context)}
+
+# def _request_is_admin(context):
+    
+#     requester = context.get('user')
+#     return _has_user_permission_for_some_group(requester, )
+
+@toolkit.auth_allow_anonymous_access
+def custom_user_list_auth(context, data_dict):
+    # Only sysadmins should be able to see the user list
+    return {'success': False}
