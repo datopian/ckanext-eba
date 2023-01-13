@@ -25,15 +25,15 @@ h3 {
   font-size: 25px;
 }
 a {
-  color: #2f88a3;
+  color: #003164;
 }
 img {
   max-width: 100%;
 }
 /* Buttons */
 .btn-primary {
-  background-color: #2f88a3;
-  border-color: #2f88a3;
+  background-color: #003164;
+  border-color: #003164;
   padding: 10px 20px;
   font-weight: 400;
 }
@@ -103,13 +103,11 @@ img {
   color: #525252;
 }
 .masthead .nav li a:hover {
-  background:#2f88a3;
-  /* #003164; */
+  background: #003164;
 }
 .account-masthead {
   padding: 0px 0;
-  background:#2f88a3;
-  /* #003164; */
+  background: #003164;
 }
 .site-footer {
   margin-top:150px;
@@ -128,7 +126,7 @@ img {
 .masthead .nav > .active > a,
 .masthead .nav > .active > a:hover,
 .masthead .nav > .active > a:focus {
-  color: #2f88a3;
+  color: #003164;
 }
 /* Header */
 .account-masthead .account ul li {
@@ -178,7 +176,7 @@ img {
   margin-top: 20px;
 }
 .homepage .module-search .search-giant input {
-  border-color: #2f88a3;
+  border-color: #003164;
   height: 60px;
   border: 1px solid #eee;
   border-radius: 6px;
@@ -200,7 +198,7 @@ img {
 .tag {
   display: inline-block;
   color: #fff;
-  background-color: #f79b40;
+  background-color: #003164;
   padding: 1px 14px;
   border-radius: 4px;
   -webkit-box-shadow: none;
@@ -215,8 +213,8 @@ img {
 a.tag:hover {
   text-decoration: none;
   color: #fff;
-  background-color: #f79b40;
-  border: 1px solid #f79b40;
+  background-color: #003164;
+  border: 1px solid #003164;
   -webkit-box-shadow: none;
   box-shadow: none;
 }
@@ -226,7 +224,7 @@ a.tag:hover {
 /* Homepage Totals */
 .totals {
   padding: 40px 0 35px 0;
-  background: #f79b40;
+  background: #003164;
   color: #fff;
 }
 .totals p,
@@ -257,7 +255,7 @@ a.tag:hover {
   }
 }
 .group .media-heading a {
-  color: #f79b40 !important;
+  color: #003164 !important;
 }
 .group .dataset-item {
   margin-top: 10px;
@@ -287,7 +285,7 @@ a.tag:hover {
   }
 }
 .organization .media-heading a {
-  color: #2f88a3 !important;
+  color: #003164 !important;
 }
 .organization .dataset-item {
   margin-top: 10px;
@@ -318,7 +316,7 @@ a.tag:hover {
 /*Reutilization Section */
 .reuti {
   margin-top: 50px;
-  background-color: #2f88a3;
+  background-color: #003164;
   color: #fff;
   background-image: url('/images/bg-dark.png');
   background-size: cover;
@@ -374,7 +372,7 @@ a.tag:hover {
 /* Sub footer */
 .subfooter {
   padding: 30px 0;
-  background-color: #2f88a3;
+  background-color: #003164;
 }
 .subfooter h3 {
   color: #fff;
@@ -594,7 +592,7 @@ button.active {
 }
 /* About */
 .about .page-heading {
-  color: #2f88a3;
+  color: #003164;
 }
 /* dateset search page */
 @media only screen and (max-width: 768px) {
@@ -626,7 +624,7 @@ button.active {
   margin-bottom: 3px !important;
 }
 .dataset-search .dataset-item h3 a {
-  color: #2f88a3 !important;
+  color: #003164 !important;
 }
 .dataset-search .dataset-item .dataset-resources li a {
   padding: 3px 18px 3px 18px !important;
@@ -755,15 +753,13 @@ button.active {
 }
 
 .site-footer p, .site-footer a, .site-footer label, .site-footer small, .site-footer strong {
-  color: #ffff;
-  /* #7a7a7a; */
+  color: #7a7a7a;
   font-weight: 400;
 }
 
 .site-footer {
   margin-top: 150px;
-  background: #2f88a3;
-  /* #f7f7f7; */
+  background: #f7f7f7;
 }
 
 .wrapper {
@@ -810,17 +806,17 @@ button.active {
 @media only screen and (max-width: 768px) {
   .navbar-toggle {
     margin-right: 20px !important;
-    background-color: #2f88a3;
+    background-color: #003164;
     padding: 6px 10px;
   }
   .navbar-toggle:hover {
-    background-color: #2f88a3 !important;
+    background-color: #003164 !important;
   }
   .navbar-toggle:focus {
-    background-color: #2f88a3 !important;
+    background-color: #003164 !important;
   }
   .navbar-toggle:active {
-    background-color: #2f88a3 !important;
+    background-color: #003164 !important;
   }
   .media-grid .media-item {
     width: 100% !important;
